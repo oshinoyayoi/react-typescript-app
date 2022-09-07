@@ -1,4 +1,5 @@
 import React from "react";
+import "./Taska.css";
 
 type Props = {
   task: TaskProps;

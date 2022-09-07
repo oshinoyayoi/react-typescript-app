@@ -1,7 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Apps from "./components/App";
+import logo from "./logo.svg";
 
+/*
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,13 @@ function App() {
       </header>
     </div>
   );
+}
+
+export default App;
+*/
+
+function App() {
+  return <Apps />;
 }
 
 export default App;

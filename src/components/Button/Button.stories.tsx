@@ -5,6 +5,8 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 export default {
   title: "Form/Button",
   component: Button,
+  // 这里的args是组件层级（默认导出）中传入组件属性
+  // 这个 Button 组件的所有 stories 的 primary（这里为children） 属性都会是 “Button”
   args: {
     children: "Button",
   },
@@ -20,7 +22,8 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 export const PrimaryA = Template.bind({});
 PrimaryA.args = {
   variant: "primary",
-  // children: 'Primary Args',
+  //覆盖最初的children属性，更改为"Primary Args"
+  children: "Primary Args",
 };
 
 export const SecondaryA = Template.bind({});
@@ -29,8 +32,10 @@ SecondaryA.args = {
   // children: 'Secondary Args',
 };
 
+// 复用 PrimaryA 的 args
 export const LongPrimaryA = Template.bind({});
 LongPrimaryA.args = {
   ...PrimaryA.args,
-  // children: 'Long Primary Args',
+  // 并覆盖 children 属性
+  children: "Long Primary Args",
 };

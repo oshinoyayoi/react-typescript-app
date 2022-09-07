@@ -1,8 +1,8 @@
-import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import App from './App';
-
+// import App from "./App";
+/*
 export default {
     title: 'Example/App',
     component: App,
@@ -20,3 +20,5 @@ PrimaryTest.args = {
     primary: true,
     label: 'Button',
 };
+
+*/

@@ -10,6 +10,7 @@ export default {
 const Template: ComponentStory<typeof Task> = (args) => <Task {...args} />;
 
 export const Default = Template.bind({});
+// args:在这个 story 中传入组件属性，只影响当前 story
 Default.args = {
   task: {
     id: "1",
