@@ -1,0 +1,11 @@
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.rank-list {
+  display: flex;
+  .rank-item {
+    display: flex;
+    flex-flow: row;
+  }
+}

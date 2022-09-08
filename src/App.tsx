@@ -1,6 +1,7 @@
 import React from "react";
+import HomePage from "./clothshop/homepage/homepage";
 import Apps from "./components/App";
-import logo from "./logo.svg";
+import NitoriHomePage from "./nitori/homepage/homepage";
 
 /*
 function App() {
@@ -28,7 +29,7 @@ export default App;
 */
 
 function App() {
-  return <Apps />;
+  return <NitoriHomePage />;
 }
 
 export default App;

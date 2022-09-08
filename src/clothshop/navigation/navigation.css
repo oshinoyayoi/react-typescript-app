@@ -1,0 +1,20 @@
+.flex-items-center-justify-between-h-16 {
+  margin-top: 70px;
+  margin-left: 100px;
+  display: flex;
+  margin-bottom: 100px;
+}
+.flex-items-center-justify-between-h-16 .flex-items-center-text-sm-gap-6 {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 550px;
+}
+.flex-items-center-justify-between-h-16 .flex-items-center-text-sm-gap-6 li {
+  margin-right: 50px;
+}
+.flex-items-center-justify-between-h-16 .sm-gap-4-sm-flex {
+  display: flex;
+}
+.flex-items-center-justify-between-h-16 .sm-gap-4-sm-flex a {
+  margin-right: 20px;
+}/*# sourceMappingURL=navigation.css.map */

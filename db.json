@@ -20,5 +20,68 @@
       "content": "learn storybook",
       "done": true
     }
+  ],
+
+  "rank": [
+    {
+      "id": 1,
+      "category": "学習机・ランドセル・子供用品",
+      "goods": [
+        {
+          "id": 10001,
+          "goodsName": "キャスター付きトイボックス",
+          "price": 1990,
+          "star": 4,
+          "review": 22,
+          "img": "https://www.nitori-net.jp/ecstatic/image/product/8422233s/8422233s00.jpg?ts=20210813095140100&imwidth=200&imdensity=1"
+        },
+        {
+          "id": 10002,
+          "goodsName": "キッズ絵本ラック(セルフル)",
+          "price": 5990,
+          "star": 5,
+          "review": 1,
+          "img": "https://www.nitori-net.jp/ecstatic/image/product/8422232s/8422232s00.jpg?ts=20210813095101572&imwidth=200&imdensity=1"
+        },
+        {
+          "id": 10003,
+          "goodsName": "折り畳みできるキッズプレイマット(ロード)",
+          "price": 3290,
+          "star": 5,
+          "review": 4,
+          "img": "https://www.nitori-net.jp/ecstatic/image/product/8422235s/8422235s00.jpg?ts=20210607104122215&imwidth=200&imdensity=1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "収納・衣類収納",
+      "goods": [
+        {
+          "id": 10004,
+          "goodsName": "収納ケース Nインボックス(W) レギュラー",
+          "price": 699,
+          "star": 4,
+          "review": 176,
+          "img": "https://www.nitori-net.jp/ecstatic/image/product/8422235s/8422235s00.jpg?ts=20210607104122215&imwidth=200&imdensity=1"
+        },
+        {
+          "id": 10005,
+          "goodsName": "収納ケース Nインボックス(W) クォーター ホワイト",
+          "price": 349,
+          "star": 4,
+          "review": 25,
+          "img": "https://www.nitori-net.jp/ecstatic/image/product/7750529/775052901.jpg?ts=20190725152209871&imwidth=200&imdensity=1"
+        },
+        {
+          "id": 10006,
+          "goodsName": "収納ケース ソフトNインボックス レギュラー ホワイト",
+          "price": 749,
+          "star": 4,
+          "review": 48,
+          "img": "https://www.nitori-net.jp/ecstatic/image/product/8060239/806023901.jpg?ts=20210623125127173&imwidth=200&imdensity=1"
+        }
+      ]
+    }
   ]
 }
