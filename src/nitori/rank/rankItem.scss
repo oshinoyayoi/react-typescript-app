@@ -1,3 +1,14 @@
 .background {
   display: flex;
+  .box {
+    margin-left: 10px;
+    margin-right: 10px;
+    img {
+      width: 168px;
+      height: 168px;
+    }
+    .goods-name {
+      font-size: 0.8rem;
+    }
+  }
 }

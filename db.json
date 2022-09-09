@@ -83,5 +83,74 @@
         }
       ]
     }
+  ],
+  "swiperData": [
+    {
+      "imgUrl": "https://www.nitori-net.jp/ecstatic/include/characteristic/all/TopTk_bnr_pc.jpg",
+      "id": 1
+    },
+    {
+      "imgUrl": "https://www.nitori-net.jp/ecstatic/include/feature/img22/ncool/TopTk_bnr_cmpc.jpg",
+      "id": 2
+    },
+    {
+      "imgUrl": "https://www.nitori-net.jp/ecstatic/include/feature…mg22/sofa-combine/relaxingsofa/TopTk_bnr_cmpc.jpg",
+      "id": 3
+    },
+    {
+      "imgUrl": "https://www.nitori-net.jp/ecstatic/include/feature/img22/electronics/TopTk_bnr_pc.jpg",
+      "id": 4
+    }
+  ],
+  "data": [
+    {
+      "categoryId": 16,
+      "categoryName": "家电",
+      "categoryImage": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8993451212830/Mattress.jpg",
+      "subList": [
+        {
+          "categoryId": 17,
+          "categoryName": "厨房电器",
+          "categoryImage": ""
+        }
+      ]
+    },
+    {
+      "categoryId": 15,
+      "categoryName": "手机",
+      "categoryImage": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/9011406700574/Kotatsu210921-2.jpg",
+      "subList": [
+        {
+          "categoryId": 18,
+          "categoryName": "翻盖手机",
+          "categoryImage": ""
+        },
+        {
+          "categoryId": 19,
+          "categoryName": "智能手机",
+          "categoryImage": ""
+        }
+      ]
+    }
+  ],
+  "address": [
+    {
+      "id": 1,
+      "addressName": "home",
+      "firstName": "a",
+      "lastName": "b",
+      "firstNameCata": "a",
+      "lastNameCata": "b",
+      "tel": 123123,
+      "posalCode": 3310000,
+      "mainAddress": "水水水水水水",
+      "subAddress": "对对对",
+      "sub2Address": "对对对",
+      "addressNumber": "1-1-1",
+      "houseName": null,
+      "houseNumber": null,
+      "houseType": "戸建て",
+      "elevator": "なし"
+    }
   ]
 }

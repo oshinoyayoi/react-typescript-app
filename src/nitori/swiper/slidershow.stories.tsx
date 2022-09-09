@@ -1,27 +1,21 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import { RankItem } from "./rankItem";
+import { Slidershow } from "./slidershow";
 
 export default {
-  title: "Nitori/RankItem",
+  title: "Nitori/Slidershow",
 
-  component: RankItem,
-} as ComponentMeta<typeof RankItem>;
+  component: Slidershow,
+} as ComponentMeta<typeof Slidershow>;
 
-const Template: ComponentStory<typeof RankItem> = (args) => (
-  <RankItem {...args} />
-);
+const Template: ComponentStory<typeof Slidershow> = () => <Slidershow />;
 
 export const Primary = Template.bind({});
 // args:在这个 story 中传入组件属性，只影响当前 story
 Primary.args = {
   rank: {
     id: "1",
-    goodsName: "",
-    price: 499,
-    star: 4,
-    review: 123,
-    img: "img",
+    imgUrl: "",
   },
 
   // inputEl: React.RefObject<HTMLTextAreaElement>;

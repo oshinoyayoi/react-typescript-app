@@ -1,4 +1,5 @@
 import { start } from "repl";
+import Rating from "@mui/material/Rating";
 import "./rankItem.css";
 
 export type Goods = {
@@ -13,20 +14,24 @@ export type ItemProps = {
   rank: Goods;
 };
 export const RankItem = ({ rank }: ItemProps) => {
-  // const { id, goodsName, price, star, review, img } = rank;
-  console.log(rank);
-
   return (
     <div key={rank.id} className="background">
       {Array.isArray(rank)
         ? rank.map((item, id) => {
             return (
-              <div key={item.id}>
+              <div key={item.id} className="box">
                 <img className="img" src={item.img} />
                 <div className="goods-name">{item.goodsName}</div>
-                <div className="price">{item.price}</div>
-                <div className="star">{item.star}</div>
-                <div className="review">{item.review}</div>
+                <div className="price">{item.price}円</div>
+                <div className="star">
+                  <Rating
+                    name="half-rating-read"
+                    defaultValue={item.star}
+                    precision={0.1}
+                    readOnly
+                  />
+                </div>
+                <div className="review">({item.review})</div>
               </div>
             );
           })

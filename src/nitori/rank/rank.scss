@@ -4,8 +4,11 @@
 }
 .rank-list {
   display: flex;
+  .category-name {
+    font-size: larger;
+    font-weight: bold;
+  }
   .rank-item {
     display: flex;
-    flex-flow: row;
   }
 }

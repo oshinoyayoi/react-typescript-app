@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import * as rankData from "../../apis/rank";
 import RankItem from "./rankItem";
 import "./rank.css";
-
+import { AiFillCrown } from "react-icons/ai";
 export type Rank = {
   id: string;
   category: string;
@@ -24,10 +24,7 @@ export const Rank = () => {
 
   useEffect(() => {
     rankData.getAllRankData().then((rank) => {
-      console.log(rank);
       setRankList(rank);
-      //  console.log(rank.goods);
-      //  setGoods([...rank.goods]);
     });
   }, []);
 
@@ -38,6 +35,7 @@ export const Rank = () => {
         {rankList.map((rank, index) => {
           return (
             <div key={index}>
+              <AiFillCrown />
               <div className="rank-number">{rank.id}</div>
               <div className="category-name">{rank.category}</div>
               <div className="rank-item">

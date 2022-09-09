@@ -6,7 +6,10 @@
 .rank-list {
   display: flex;
 }
+.rank-list .category-name {
+  font-size: larger;
+  font-weight: bold;
+}
 .rank-list .rank-item {
   display: flex;
-  flex-flow: row;
 }/*# sourceMappingURL=rank.css.map */
